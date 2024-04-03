@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.14sarevi4 design - Портфолио</title>
+    <link href="https://fonts.googleapis.com/css2?family=IF+Kica&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'IF Kica', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .title {
+            text-align: left;
+            margin-bottom: 20px;
+			color:#7B68EE;
+        }
+		a{
+		text-decoration: none;
+		}
+        .navigation {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .navigation a {
+            text-decoration: none;
+            color: #000000;
+            margin-right: 10px;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+        .portfolio-item {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .portfolio-item img {
+            width: 100%;
+            display: block;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .portfolio-item img:hover {
+            transform: scale(1.05);
+        }
+		
+		footer {
+			font-family: 'Esqadero FF CY 4F', sans-serif;
+			background-color: #A9A9A9;
+			color: black;
+			text-align: center;
+			padding: 0.2em 0;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <a href="index.html"><h1>3.14sarevi4 design</h1></a>
+        </div>
+        <div class="navigation">
+            <a href="about.html">обо мне</a>
+            <a href="port.html">портфолио</a>
+            <a href="call.html">контакты</a>
+        </div>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <a href="port1.html">
+                    <img src="горноалтайск.png" alt="Work 1">
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="port2.html">
+                    <img src="киберкемп.png" alt="Work 2">
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="port3.html">
+                    <img src="топмодель.png" alt="Work 3">
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="port4.html">
+                    <img src="экоцирк.jpg" alt="Work 4">
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="port5.html">
+                    <img src="фешндей.png" alt="Work 5">
+                </a>
+            </div>
+         
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 писаревич дизайнер</p>
+    </footer> <br><br><br>
+</body>
+</html>

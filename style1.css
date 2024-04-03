@@ -1,0 +1,99 @@
+body {
+    font-family: "IF Kica Light"; 
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+	margin-bottom: 20%;
+}
+header {
+    background-color: #F5F5F5;
+    color: #7B68EE;
+    text-align: center;
+    padding: 1em 0;
+}
+a.button {
+	color: #7B68EE;
+	text-decoration: none;
+	user-select: none;
+} 
+
+.nav{
+	font-family: 'IF Kica Light', sans-serif;
+	margin-left: 55%;
+	width: 700px;
+	padding: 0 40px;
+}
+a.button1 {
+
+	color: black;
+	float: left;
+	margin-left: 80px;
+	width: 100px;
+	text-decoration: none;
+	user-select: none;
+} 
+a.button1:hover {  
+	color: #A9A9A9;
+}
+a.button1:active {  
+	filter: blur(2px);
+}
+.vse{
+	margin-left: auto ;
+	margin-right: auto ;
+ margin-top: 100px;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 20px;
+
+}
+.text{
+
+	
+	color: black;
+	 line-height: 1.5;
+	font-family: 'Esqadero FF CY 4F', sans-serif;
+	margin-top: 220px;
+	margin-left: 9%;
+	height: 300 px;
+	width: 750px;
+	float:left;
+	
+}
+.vlad>img{
+	margin-top: 80px;
+	
+	width: 350px;
+	  border-radius: 10px;
+	
+	
+}
+.rectangle{
+margin-top: 180px;
+width: 1000px;
+height: 170px;
+border:2px solid;
+border-color: #7B68EE;
+border-radius: 10px;
+margin:auto;
+background: white;
+}
+
+.vvv{
+	margin-top: 100px;
+	text-align: center;
+	line-height: 80px;
+	 line-height: 1.5;
+	font-family: 'Esqadero FF CY 4F', sans-serif;
+}
+
+footer {
+	font-family: 'Esqadero FF CY 4F', sans-serif;
+    background-color: #0f0f0f;
+    color: #A9A9A9;
+    text-align: center;
+    padding: 0.2em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.14sarevi4 design - Обо мне</title>
+    <link href="https://fonts.googleapis.com/css2?family=IF+Kica&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'IF Kica', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            overflow-x: hidden; /* Для предотвращения горизонтального скролла */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .title {
+            text-align: left;
+            margin-bottom: 20px;
+			color:#7B68EE;
+        }
+        .navigation {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .navigation a {
+            text-decoration: none; /* Убираем подчеркивание ссылок */
+            color: #000000; /* Цвет ссылок */
+            margin-right: 10px; /* Добавляем немного отступа между ссылками */
+        }
+        .about-me {
+		line-height: 2;
+            text-align: left;
+            margin-bottom: 40px;
+        }
+		p{
+		font-family: 'Esqadero FF CY 4F', sans-serif;
+		}
+		a{
+		text-decoration: none;
+		}
+        .about-me img {
+            border-radius: 10px; 
+			width:1200px;
+            max-width: 100%; /* Изображение не будет выходить за пределы экрана */
+            height: auto;
+            float: right;
+        }
+        .green-box {
+            background-color: #d1ffb0;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+			line-height: 2;
+        }
+        .stars-image {
+            width: 100px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .work-with-me {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .service {
+            text-align: center;
+        }
+        .service img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+        
+        /* Медиа-запрос для адаптивного дизайна */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .about-me img {
+                margin: 0 auto 20px; /* Выравниваем изображение по центру и добавляем отступ снизу */
+				width: 4000px;
+            }
+            .about-me table {
+                width: 100%; /* Устанавливаем ширину таблицы на 100% */
+            }
+        }
+		
+		footer {
+			font-family: 'Esqadero FF CY 4F', sans-serif;
+			background-color: #A9A9A9;
+			color: black;
+			text-align: center;
+			padding: 0.2em 0;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <a href="index.html"><h1>3.14sarevi4 design</h1></a>
+        </div>
+        <div class="navigation">
+            <a href="about.html">обо мне</a>
+            <a href="port.html">портфолио</a>
+            <a href="call.html">контакты</a>
+        </div>
+        <div class="about-me">
+            <h2>Кто я</h2>
+            <table>
+                <tr>
+                    <td style="vertical-align: top;">
+                        <p>Привет! Меня зовут Анна, и я - молодой и амбициозный дизайнер, стремящаяся к созданию уникальных и запоминающихся образов для различных брендов. Мне 21 год, и я предана миру дизайна уже более пяти лет.</p>
+                    </td>
+                    <td>
+                        <img src="vlad.jpg" alt="Image">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <img class="stars-image" src="звездочка.png" alt="Stars">
+        <h2>Что я делаю</h2>
+        <div class="green-box">
+            <p>Моя специализация - разработка фирменного стиля. Я убеждена, что хороший фирменный стиль - это не просто логотип и цветовая палитра. Это целостная концепция, которая отражает идеи, ценности и уникальность бренда. Моя цель - помочь компаниям выделиться на рынке и создать неповторимый имидж, который будет привлекать клиентов.</p>
+        </div>
+        <img class="stars-image" src="звездочка.png" alt="Stars">
+        <div class="work-with-me">
+            <h2>Работать со мной это -</h2>
+            <div class="services">
+                <div class="service">
+                    <img src="связь.png" alt="Service 1">
+                    <p>Индивидуальный подход</p>
+                </div>
+                <div class="service">
+                    <img src="результат.png" alt="Service 2">
+                    <p>Креативные решения</p>
+                </div>
+                <div class="service">
+                    <img src="изучение.png" alt="Service 3">
+                    <p>Профессиональное исполнение</p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<br><br>
+    <footer>
+        <p>&copy; 2024 писаревич дизайнер</p>
+    </footer>
+</body>
+</html>
